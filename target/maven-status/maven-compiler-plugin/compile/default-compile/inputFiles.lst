@@ -1,0 +1,13 @@
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/com/email/Element.java
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/app/Demo.java
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/com/email/visitor/Visitable.java
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/com/email/Folder.java
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/com/email/IEmailMessage.java
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/com/email/visitor/Visitor.java
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/com/email/visitor/FindEmail.java
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/app/Main.java
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/com/email/ElementPermission.java
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/com/email/ElementType.java
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/com/email/EmailMessage.java
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/com/email/iterator/EmailIterator.java
+/home/leonardo/Documents/java-ex/EMailClient/src/main/java/com/email/iterator/EmailIteratorImpl.java
