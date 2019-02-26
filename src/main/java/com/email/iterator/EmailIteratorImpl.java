@@ -4,32 +4,33 @@ import com.email.Element;
 
 import java.util.List;
 
+/**
+ * Implementación de la interfaz EmailIterator
+ * Define como datos la lista de elementos y el indice apuntador.
+ */
 public class EmailIteratorImpl implements EmailIterator {
-    private List<Element> list;
-    private int index;
-    public EmailIteratorImpl(List<Element> list) {
-        this.list = list;
-        this.index = -1;
-    }
+  private List<Element> list;
+  private int index;
 
-    @Override
-    public boolean hasNext() {
-        return this.index < this.list.size() -1;
-    }
+  public EmailIteratorImpl(List<Element> list) {
+    this.list = list;
+    this.index = -1;
+  }
 
-    @Override
-    public Element next() {
-        this.index++;
-        return this.list.get(this.index);
-    }
+  @Override
+  public boolean hasNext() {
+    return this.index < this.list.size() - 1;
+  }
 
-    @Override
-    public Element current() {
-        return this.list.get(this.index);
-    }
+  @Override
+  public Element next() {
+    this.index++;
 
-    @Override
-    public void begin() {
-        this.index = -1;
-    }
+    return this.list.get(this.index);
+  }
+
+  @Override
+  public Element current() {
+    return this.list.get(this.index);
+  }
 }

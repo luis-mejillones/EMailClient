@@ -1,0 +1,37 @@
+Buecador de corres electrónicos
+
+Esta aplicación fue desarrollada utilizando Java y Maven 
+como herramienta de compilación de codigo.
+
+Para compilar el codigo ejecutar el demo, debe ubicarse 
+en la raiz principal del proyecto (EMailClient) y luego 
+ejecutar los siguiente comando:
+    $ mvn compile
+
+Para generar generar el archivo jar:
+    $ mvn package
+
+Finalmente, para correr el programa use el siguiente 
+comando:
+    $ java -cp target/EMailClient-1.0-SNAPSHOT.jar app.Main
+
+El programa Demo, genera unos cuantos mensajes ubicados en 
+los directorios Inbox, Sent y un folder personalizado llamado
+Importante.
+
+Se realiza un par de busquedas predefinidos en el archivo
+Demo.java
+
+Si desea realizar otras busquedas, puede cambiar alguno de los
+textos de busqueda.
+
+Al principio de la ejecucón de la Demo, se muestran todos los
+mensajes generados con lo cual puede crear nuevos criterios de
+busqueda.
+
+Este ejercicio realiza busquedas en los campos:
+  - From: email de origen
+  - Subject
+  - Body
+
+

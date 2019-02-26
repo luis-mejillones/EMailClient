@@ -1,20 +1,22 @@
 package com.email;
 
-import com.email.iterator.EmailIterator;
-import com.email.visitor.Visitable;
-import com.email.visitor.Visitor;
+/**
+ * Interfaz que define las tareas mas generales para los elementos
+ * que intervienen en la aplicación. Permite englobar a los elementos
+ * como Folder y Mensajes de correo electrónico.
+ */
+public interface Element {
+    /**
+     * Permite desplegar el contenido de un elemento, ya sea un Folder
+     * con una lista de mensajes o un mensaje que despliega su contenido.
+     */
+    void displayContent();
 
-public abstract class Element implements Visitable {
-    public static final String FOLDER_INBOX_NAME = "Inbox";
-    public static final String FOLDER_SENT_NAME = "Send";
-    public static final String FOLDER_TRASH_NAME = "Trash";
-
-    public abstract void addChildElement(Element element);
-
-    public abstract void displayContent();
-    public abstract ElementType getType();
-
-    public abstract EmailIterator getIterator();
-
-    public abstract Visitor getVisitor(String criteria);
+    /**
+     * Retorna el tipo de elemento con el que se trabaja, ya sea Folder
+     * o Mensaje.
+     *
+     * @return
+     */
+    ElementType getType();
 }

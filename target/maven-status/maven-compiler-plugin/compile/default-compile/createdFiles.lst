@@ -2,12 +2,12 @@ com/email/visitor/Visitable.class
 com/email/ElementType.class
 com/email/visitor/FindEmail.class
 com/email/Folder.class
-com/email/IEmailMessage.class
 com/email/iterator/EmailIteratorImpl.class
 com/email/Element.class
 app/Demo.class
 app/Main.class
-com/email/ElementPermission.class
+com/email/Message.class
 com/email/iterator/EmailIterator.class
 com/email/visitor/Visitor.class
+com/email/FolderImpl.class
 com/email/EmailMessage.class
